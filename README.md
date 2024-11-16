@@ -8,14 +8,18 @@ This repository currently contains the following frameworks and prompts:
 
 * `adv_creativity_framework.md`
 * `article_draft_system.md`
+* `content_strategy_creator.md`
 * `ECARLM_framework.md`
 * `fractal_framework.md`
+* `idea_generator.md`
 * `Ideation_JSONOutput.md`
+* `image_photo_prompt_improvement.md`
+* `image_post_generator.md`
 * `metrics_plus_framework.md`
-* `Outline_Agent_SystemPrompt.md`
-* `Outline_Agent_UserPrompt.md`
+* `outline-creator.md`
 * `reasoning_v1_framework.md`
 * `reasoning_v2_framework.md`
+* `vision_analysis_general.md`
 
 More prompts and frameworks will be added over time.
 
