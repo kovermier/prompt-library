@@ -17,11 +17,10 @@ The following frameworks and prompts are currently available:
   A framework for generating creative content using fractal patterns and iterative refinement
 
 - **Metrics Plus Framework** (`metrics_plus_framework.md`)  
-  A framework for layered problem-solving, incorporating direct analysis, meta-analysis, pattern recognition, knowledge integration, and emotional processing
+  A framework for layered problem-solving, incorporating direct analysis, meta-analysis, pattern recognition, knowledge integration, and emotional processing; Built atop 'reasoning-
 
 - **Reasoning Frameworks**
-  - `reasoning_v1_framework.md` - Logical reasoning and problem-solving with step-by-step deduction
-  - `reasoning_v2_framework.md` - Enhanced version with advanced techniques and strategies
+  - `reasoning_v2_framework.md` - Logical reasoning and problem-solving with step-by-step deduction
 
 ### Content Generation
 - **Article Draft System** (`article_draft_system.md`)  
