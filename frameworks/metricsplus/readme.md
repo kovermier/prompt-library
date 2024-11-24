@@ -28,4 +28,8 @@ Following these layers ensures a comprehensive and nuanced solution, incorporati
 
 ---
 
+**Notice:** This framework will be moving to its own git repository as multi-agentic.
+
+---
+
 ![algoflow](algoflow.svg)
