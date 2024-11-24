@@ -6,8 +6,6 @@ This repository serves as a centralized hub for various prompt engineering strat
 
 ```
 .
-├── article_draft_system.md
-├── content_strategy_creator.md
 ├── frameworks
 │   ├── ECARLM
 │   │   ├── ECARLM_framework.md
@@ -28,14 +26,18 @@ This repository serves as a centralized hub for various prompt engineering strat
 │   │   └── metrics_plus_framework.md
 │   ├── reasoning_v2
 │   │   └── reasoning_v2_framework.md
-│   ├── readme.md
-├── idea_generator.md
-├── Ideation_JSONOutput.md
-├── image_photo_prompt_improvement.md
-├── image_post_generator.md
-├── outline-creator.md
+│   └── readme.md
+├── prompts
+│   ├── article_draft_system.md
+│   ├── content_strategy_creator.md
+│   ├── idea_generator.md
+│   ├── Ideation_JSONOutput.md
+│   ├── image_photo_prompt_improvement.md
+│   ├── image_post_generator.md
+│   ├── outline-creator.md
+│   └── vision_analysis_general.md
 └── README.md
-└── vision_analysis_general.md
+
 ```
 
-See `frameworks/readme.md` for a summary of the frameworks included in this library.
+See `frameworks/readme.md` for a summary of the frameworks included in this library.  See the `prompts` directory for various prompt examples.
