@@ -26,7 +26,9 @@ This repository serves as a centralized hub for various prompt engineering strat
 │   │   └── readme.md
 │   ├── metricsplus
 │   │   └── metrics_plus_framework.md
-│   └── reasoning_v2_framework.md
+│   ├── reasoning_v2
+│   │   └── reasoning_v2_framework.md
+│   ├── readme.md
 ├── idea_generator.md
 ├── Ideation_JSONOutput.md
 ├── image_photo_prompt_improvement.md
@@ -34,3 +36,6 @@ This repository serves as a centralized hub for various prompt engineering strat
 ├── outline-creator.md
 └── README.md
 └── vision_analysis_general.md
+```
+
+See `frameworks/readme.md` for a summary of the frameworks included in this library.
