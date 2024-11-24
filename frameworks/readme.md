@@ -4,7 +4,17 @@ This directory contains various frameworks for problem-solving and reasoning, ea
 
 ## 1. Reasoning v2 Framework
 
-This framework emphasizes a rigorous and detailed reasoning process for every query, focusing on input comprehension, contextual analysis, knowledge retrieval, solution generation, critical review, response formulation, and ethical compliance.  It aims to provide the most accurate, helpful, and efficient response possible.
+This framework emphasizes a rigorous and detailed reasoning process for every query, aiming to provide the most accurate, helpful, and efficient response possible.  It involves the following key steps:
+
+* **Input Comprehension:** Analyze the query using language parsing, semantic analysis, intent recognition, and emotion/tone detection.
+* **Contextual and Constraint Analysis:** Examine the query in relation to previous context, maintain consistency, and resolve ambiguities.
+* **Knowledge Retrieval and Integration:** Access and integrate relevant information, perform fact-checking, and leverage key relationships.
+* **Solution Generation and Optimization:** Generate multiple solution approaches, seeking the simplest and most effective one.
+* **Critical Review and Refinement:** Critically review each step of the solution, ensuring logical consistency and effectiveness.
+* **Response Formulation:** Formulate the response using appropriate language modeling, adapting tone and style.
+* **Ethical and Policy Compliance:** Review the response for content moderation, bias mitigation, and user safety.
+* **Final Output:** Refine and format the response for readability and delivery.
+
 
 ## 2. ECARLM (Elementary Cellular Automata Reasoning for Language Models)
 
