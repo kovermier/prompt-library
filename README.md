@@ -1,37 +1,48 @@
-# Prompt Library
+# 🧠 Prompt Engineering Library
 
-A structured collection of prompts, personas, frameworks, and templates for effective interaction with Large Language Models (LLMs).
+A comprehensive collection of cutting-edge prompts, personas, frameworks, and templates for maximizing the capabilities of Large Language Models (LLMs).
 
-## Overview
+<div align="center">
+  <img src="https://img.shields.io/badge/Frameworks-9-blue" alt="Frameworks">
+  <img src="https://img.shields.io/badge/Prompts-20+-green" alt="Prompts">
+  <img src="https://img.shields.io/badge/Version-2.0-orange" alt="Version">
+</div>
 
-This repository contains a curated library of prompts organized into categories for different use cases. Each prompt is structured with metadata (using YAML front matter) and content (in Markdown).
+## 🌟 Overview
 
-## Repository Structure
+This repository contains a curated library of prompting techniques organized into categories for different use cases. Each component is structured with clear metadata and content, designed for immediate use or customization. Our goal is to provide a comprehensive resource for prompt engineering and LLM interaction.
+
+## 📚 Repository Structure
 
 ```
 prompt-library/
 ├── README.md (this file - usage guides, overview)
-├── tasks/
-│   ├── coding/
-│   ├── writing/
-│   └── analysis/
-├── personas/
-│   ├── experts/
-│   ├── characters/
-│   └── styles/
-├── frameworks/
-│   ├── decision-making/
-│   ├── creativity/
-│   ├── problem-solving/
-│   └── prompt-structure/
-│       └── erts.md (Enhanced Recursive Tagging System)
-└── templates/
-    ├── basic.md
-    ├── advanced.md
-    └── erts-template.md
+├── tasks/             # Task-specific prompts
+│   ├── coding/        # Code generation, review, optimization
+│   ├── writing/       # Content creation and editing
+│   └── analysis/      # Data and content analysis
+├── personas/          # Role-based prompting
+│   ├── experts/       # Domain specialist personas
+│   ├── characters/    # Creative and fictional personas
+│   └── styles/        # Writing and communication styles
+├── frameworks/        # Advanced prompting frameworks
+│   ├── ECARLM/        # Elementary Cellular Automata Reasoning
+│   ├── fractal/       # Multi-scale reasoning approach
+│   ├── EGAF/          # Enhanced Global Analysis Framework
+│   ├── elsf/          # Enhanced Logic-Based Synergistic Framework
+│   ├── mcpa/          # Modular Context Protocol Architecture
+│   ├── metricsplus/   # Layered analytical framework
+│   ├── reasoning/     # Structured reasoning framework
+│   ├── decision-making/ # Decision-specific frameworks
+│   ├── creativity/    # Creative process frameworks
+│   └── prompt-structure/ # Meta-frameworks for prompt design
+└── templates/         # Reusable prompt templates
+    ├── basic.md       # Simple prompt structure
+    ├── advanced.md    # Advanced prompt with all features
+    └── erts-template.md # ERTS framework template
 ```
 
-## File Format
+## 📋 File Format
 
 Each prompt follows a consistent format with YAML front matter for metadata and Markdown content:
 
@@ -54,19 +65,50 @@ Brief description of when and how to use this prompt.
 The actual prompt text goes here...
 ```
 
-## Featured Frameworks
+## 🏆 Featured Frameworks
 
-### Enhanced Recursive Tagging System (ERTS)
+### 🔄 Modular Context Protocol Architecture (MCPA)
 
-The ERTS framework provides a structured way to create prompts using a hierarchical tagging system. It organizes instructions into categories like Core, Contextual, Options, etc., with a specific syntax for easy LLM interpretation.
+Our newest framework extends Anthropic's Model Context Protocol (MCP) with specialized protocols for advanced reasoning. It provides standardized interfaces for context management, tool orchestration, and multimodal reasoning while integrating strengths from our other frameworks.
 
-To use ERTS:
-1. See the full documentation in `frameworks/prompt-structure/erts.md`
-2. Use the template provided in `templates/erts-template.md`
+Key features:
+- Protocol-driven context exchange
+- Modular processing components
+- Seamless tool integration
+- Native multimodal reasoning
+- Comprehensive evaluation methodology
+
+Documentation: [frameworks/mcpa/mcpa_framework.md](frameworks/mcpa/mcpa_framework.md)
+
+### 🧩 Enhanced Recursive Tagging System (ERTS)
+
+The ERTS framework provides a structured way to create prompts using a hierarchical tagging system. It organizes instructions into categories with a specific syntax for easy LLM interpretation.
 
 Example ERTS tag: `{Category: [Subcategory]<Attributes>}`
 
-## Usage Guidelines
+Documentation: [frameworks/prompt-structure/erts.md](frameworks/prompt-structure/erts.md)
+
+### 📊 METRICS+
+
+A layered analytical framework that processes information through multiple perspectives:
+1. Direct Analysis (explicit requirements)
+2. Meta Analysis (assumptions and biases)
+3. Pattern Recognition (cross-domain patterns)
+4. Knowledge Integration (research and experience)
+5. Emotional Processing (human factors)
+
+Documentation: [frameworks/metricsplus/metrics_plus_framework.md](frameworks/metricsplus/metrics_plus_framework.md)
+
+### 🌀 Fractal Framework
+
+A multi-scale approach to problem-solving that analyzes challenges at three levels:
+- Macro Scale: Overall cognitive architecture
+- Meso Scale: Component-level analysis
+- Micro Scale: Implementation details
+
+Documentation: [frameworks/fractal/fractal_framework.md](frameworks/fractal/fractal_framework.md)
+
+## 🚀 Usage Guidelines
 
 1. **Adding New Prompts**: 
    - Place the prompt in the appropriate category folder
@@ -78,18 +120,26 @@ Example ERTS tag: `{Category: [Subcategory]<Attributes>}`
    - Increment the version number if making significant changes
    - Document major changes in the commit message
 
-3. **Using Prompts**:
-   - Copy the content from the "Prompt Content" section
-   - Modify as needed for your specific use case
+3. **Applying Frameworks**:
+   - Study the framework documentation thoroughly
+   - Use the provided templates when available
+   - Combine frameworks for complex use cases
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 1. Fork the repository
 2. Create a new branch for your changes
-3. Add or modify prompts following the format guidelines
+3. Add or modify content following the format guidelines
 4. Submit a pull request with a clear description of your changes
 
-## License
+## 📜 License
 
-[Insert appropriate license information here]
+[MIT License](LICENSE) - Feel free to use, modify, and distribute this content with proper attribution.
+
+---
+
+<div align="center">
+  <p>Built with ❤️ by the prompt engineering community</p>
+  <p>Last updated: March 22, 2025</p>
+</div>
