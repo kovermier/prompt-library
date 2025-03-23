@@ -1,43 +1,85 @@
-# Prompt Engineering Library
+# Prompt Library
 
-This repository serves as a centralized hub for various prompt engineering strategies, frameworks, and tools.  It aims to provide a comprehensive resource for crafting effective prompts for a wide range of applications, from creative writing and content generation to code development and problem-solving.  The library includes diverse frameworks, each designed to address specific prompt engineering challenges and facilitate the development of high-quality prompts.  It also offers practical tools and techniques to enhance prompt creation and streamline the prompt engineering process.  This repository is intended to be a dynamic and evolving resource, continually updated with new strategies, frameworks, and tools as the field of prompt engineering progresses.
+A structured collection of prompts, frameworks, personas, and templates for working with large language models.
 
-## File and Folder Structure
-
-```
-.
-├── frameworks
-│   ├── ECARLM
-│   │   ├── ECARLM_framework.md
-│   │   ├── ecarlm-detailed.mermaid
-│   │   ├── ecarlm-diagram.mermaid
-│   │   └── README.md
-│   ├── EGAF
-│   │   ├── enhanced-global-framework.md
-│   │   └── README.md
-│   ├── els
-│   │   └── els-framework.md
-│   ├── fractal
-│   │   ├── fractal_framework.md
-│   │   ├── fractal-components.mermaid
-│   │   ├── fractal-framework-diagram.mermaid
-│   │   └── readme.md
-│   ├── metricsplus
-│   │   └── metrics_plus_framework.md
-│   ├── reasoning_v2
-│   │   └── reasoning_v2_framework.md
-│   └── readme.md
-├── prompts
-│   ├── article_draft_system.md
-│   ├── content_strategy_creator.md
-│   ├── idea_generator.md
-│   ├── Ideation_JSONOutput.md
-│   ├── image_photo_prompt_improvement.md
-│   ├── image_post_generator.md
-│   ├── outline-creator.md
-│   └── vision_analysis_general.md
-└── README.md
+## Structure
 
 ```
+prompt-library/
+├── README.md (usage guides, overview)
+├── tasks/
+│   ├── coding/
+│   ├── writing/
+│   └── analysis/
+├── personas/
+│   ├── experts/
+│   ├── characters/
+│   └── styles/
+├── frameworks/
+│   ├── decision-making/
+│   ├── creativity/
+│   └── problem-solving/
+├── chains/
+│   ├── content_development_chain.md
+│   └── visual_content_chain.md
+└── templates/
+    ├── basic.md
+    └── advanced.md
+```
 
-See `frameworks/readme.md` for a summary of the frameworks included in this library.  See the `prompts` directory for various prompt examples.
+## Prompt Format
+
+All prompts use Markdown with YAML front matter for metadata:
+
+```markdown
+---
+title: "Title of the Prompt"
+category: "category/subcategory"
+tags: ["tag1", "tag2", "tag3"]
+created: "YYYY-MM-DD"
+updated: "YYYY-MM-DD"
+version: 1.0
+author: "Your Name"
+---
+
+# Title of the Prompt
+
+## Context
+Brief explanation of when and how to use this prompt.
+
+## Prompt Content
+The actual prompt text goes here...
+```
+
+## Usage
+
+### Creating a New Prompt
+
+1. Choose the appropriate category directory
+2. Copy one of the templates from the `templates/` directory
+3. Fill in the YAML front matter metadata and prompt content
+4. Save the file with a descriptive name using kebab-case (e.g., `expert-react-developer.md`)
+
+### Working with Prompt Chains
+
+Prompt chains connect multiple prompts in a workflow where the output of one prompt becomes the input for the next. Prompt chains can be found in the `chains/` directory and include detailed instructions for each stage of the workflow.
+
+### Finding Prompts
+
+Prompts can be found by:
+- Browsing the directory structure
+- Checking the YAML frontmatter for tags and categories
+- Using Git search functionality
+
+### Contributing
+
+When contributing to this library:
+1. Follow the established directory structure
+2. Use the provided templates
+3. Include all required metadata
+4. Test your prompts before submission
+5. Submit a pull request with a clear description of your addition
+
+## License
+
+[Add your license information here]
