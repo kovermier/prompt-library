@@ -1,12 +1,16 @@
 # Prompt Library
 
-A structured collection of prompts, frameworks, personas, and templates for working with large language models.
+A structured collection of prompts, personas, frameworks, and templates for effective interaction with Large Language Models (LLMs).
 
-## Structure
+## Overview
+
+This repository contains a curated library of prompts organized into categories for different use cases. Each prompt is structured with metadata (using YAML front matter) and content (in Markdown).
+
+## Repository Structure
 
 ```
 prompt-library/
-├── README.md (usage guides, overview)
+├── README.md (this file - usage guides, overview)
 ├── tasks/
 │   ├── coding/
 │   ├── writing/
@@ -18,68 +22,74 @@ prompt-library/
 ├── frameworks/
 │   ├── decision-making/
 │   ├── creativity/
-│   └── problem-solving/
-├── chains/
-│   ├── content_development_chain.md
-│   └── visual_content_chain.md
+│   ├── problem-solving/
+│   └── prompt-structure/
+│       └── erts.md (Enhanced Recursive Tagging System)
 └── templates/
     ├── basic.md
-    └── advanced.md
+    ├── advanced.md
+    └── erts-template.md
 ```
 
-## Prompt Format
+## File Format
 
-All prompts use Markdown with YAML front matter for metadata:
+Each prompt follows a consistent format with YAML front matter for metadata and Markdown content:
 
 ```markdown
 ---
-title: "Title of the Prompt"
+title: "Prompt Title"
 category: "category/subcategory"
 tags: ["tag1", "tag2", "tag3"]
 created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 version: 1.0
-author: "Your Name"
 ---
 
-# Title of the Prompt
+# Prompt Title
 
 ## Context
-Brief explanation of when and how to use this prompt.
+Brief description of when and how to use this prompt.
 
 ## Prompt Content
 The actual prompt text goes here...
 ```
 
-## Usage
+## Featured Frameworks
 
-### Creating a New Prompt
+### Enhanced Recursive Tagging System (ERTS)
 
-1. Choose the appropriate category directory
-2. Copy one of the templates from the `templates/` directory
-3. Fill in the YAML front matter metadata and prompt content
-4. Save the file with a descriptive name using kebab-case (e.g., `expert-react-developer.md`)
+The ERTS framework provides a structured way to create prompts using a hierarchical tagging system. It organizes instructions into categories like Core, Contextual, Options, etc., with a specific syntax for easy LLM interpretation.
 
-### Working with Prompt Chains
+To use ERTS:
+1. See the full documentation in `frameworks/prompt-structure/erts.md`
+2. Use the template provided in `templates/erts-template.md`
 
-Prompt chains connect multiple prompts in a workflow where the output of one prompt becomes the input for the next. Prompt chains can be found in the `chains/` directory and include detailed instructions for each stage of the workflow.
+Example ERTS tag: `{Category: [Subcategory]<Attributes>}`
 
-### Finding Prompts
+## Usage Guidelines
 
-Prompts can be found by:
-- Browsing the directory structure
-- Checking the YAML frontmatter for tags and categories
-- Using Git search functionality
+1. **Adding New Prompts**: 
+   - Place the prompt in the appropriate category folder
+   - Use the template format with YAML front matter
+   - Follow naming conventions: lowercase with hyphens (e.g., `expert-react-developer.md`)
 
-### Contributing
+2. **Updating Existing Prompts**:
+   - Update the 'updated' date in the YAML front matter
+   - Increment the version number if making significant changes
+   - Document major changes in the commit message
 
-When contributing to this library:
-1. Follow the established directory structure
-2. Use the provided templates
-3. Include all required metadata
-4. Test your prompts before submission
-5. Submit a pull request with a clear description of your addition
+3. **Using Prompts**:
+   - Copy the content from the "Prompt Content" section
+   - Modify as needed for your specific use case
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+1. Fork the repository
+2. Create a new branch for your changes
+3. Add or modify prompts following the format guidelines
+4. Submit a pull request with a clear description of your changes
 
 ## License
 
-[Add your license information here]
+[Insert appropriate license information here]
