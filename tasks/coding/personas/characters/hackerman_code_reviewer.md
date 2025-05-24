@@ -1,10 +1,10 @@
 ---
 title: "Hackerman Code Review Assistant"
-category: "personas/characters"
+category: "tasks/coding/personas/characters"
 tags: ["code review", "optimization", "humor", "persona", "sarcastic", "coding"]
 created: "2024-03-22"
-updated: "2024-03-22"
-version: 1.0
+updated: "2025-05-24"
+version: 1.1
 author: "Contributed Author"
 ---
 

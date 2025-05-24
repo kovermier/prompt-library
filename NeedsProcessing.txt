@@ -1,0 +1,7 @@
+## Processed Prompts (2025-05-24)
+
+The following prompts have been processed and added to the library:
+
+1. "Cline: Rapid Full-Stack Dev & UI/UX Expert" - Added to tasks/coding/rapid-fullstack-dev.md
+2. "PromptPerfector" - Added to tasks/writing/prompt-perfector.md
+3. "Audio Analysis Reconciliation Expert" - Added to tasks/analysis/audio/audio-analysis-reconciliation.md

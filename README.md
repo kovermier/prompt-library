@@ -1,11 +1,11 @@
 # 🧠 Prompt Engineering Library
 
-A comprehensive collection of cutting-edge prompts, personas, frameworks, and templates for maximizing the capabilities of Large Language Models (LLMs).
+A comprehensive collection of cutting-edge prompts, frameworks, and templates for maximizing the capabilities of Large Language Models (LLMs).
 
 <div align="center">
   <img src="https://img.shields.io/badge/Frameworks-9-blue" alt="Frameworks">
   <img src="https://img.shields.io/badge/Prompts-20+-green" alt="Prompts">
-  <img src="https://img.shields.io/badge/Version-2.0-orange" alt="Version">
+  <img src="https://img.shields.io/badge/Version-3.0-orange" alt="Version">
 </div>
 
 ## 🌟 Overview
@@ -17,14 +17,12 @@ This repository contains a curated library of prompting techniques organized int
 ```
 prompt-library/
 ├── README.md (this file - usage guides, overview)
-├── tasks/             # Task-specific prompts
+├── tasks/             # Task-specific prompts for different domains
 │   ├── coding/        # Code generation, review, optimization
+│   │   └── personas/  # Coding-related personas (experts, characters)
 │   ├── writing/       # Content creation and editing
 │   └── analysis/      # Data and content analysis
-├── personas/          # Role-based prompting
-│   ├── experts/       # Domain specialist personas
-│   ├── characters/    # Creative and fictional personas
-│   └── styles/        # Writing and communication styles
+│   └── etc/           # Other specialized tasks
 ├── frameworks/        # Advanced prompting frameworks
 │   ├── ECARLM/        # Elementary Cellular Automata Reasoning
 │   ├── fractal/       # Multi-scale reasoning approach
@@ -49,7 +47,7 @@ Each prompt follows a consistent format with YAML front matter for metadata and 
 ```markdown
 ---
 title: "Prompt Title"
-category: "category/subcategory"
+category: "tasks/subcategory"
 tags: ["tag1", "tag2", "tag3"]
 created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
@@ -69,7 +67,7 @@ The actual prompt text goes here...
 
 ### 🔄 Modular Context Protocol Architecture (MCPA)
 
-Our newest framework extends Anthropic's Model Context Protocol (MCP) with specialized protocols for advanced reasoning. It provides standardized interfaces for context management, tool orchestration, and multimodal reasoning while integrating strengths from our other frameworks.
+Our conceptual framework extends Anthropic's Model Context Protocol (MCP) with specialized protocols for advanced reasoning. It provides standardized interfaces for context management, tool orchestration, and multimodal reasoning while integrating strengths from our other frameworks.
 
 Key features:
 - Protocol-driven context exchange
@@ -111,9 +109,10 @@ Documentation: [frameworks/fractal/fractal_framework.md](frameworks/fractal/frac
 ## 🚀 Usage Guidelines
 
 1. **Adding New Prompts**: 
-   - Place the prompt in the appropriate category folder
+   - Place the prompt in the appropriate category folder under `tasks/`
+   - For persona-based prompts, place them in the relevant task category (e.g., `tasks/coding/personas/`)
    - Use the template format with YAML front matter
-   - Follow naming conventions: lowercase with hyphens (e.g., `expert-react-developer.md`)
+   - Follow naming conventions: lowercase with hyphens (e.g., `react-developer.md`)
 
 2. **Updating Existing Prompts**:
    - Update the 'updated' date in the YAML front matter
@@ -140,6 +139,6 @@ Contributions are welcome! Please follow these steps:
 ---
 
 <div align="center">
-  <p>Built with ❤️ by the prompt engineering community</p>
-  <p>Last updated: March 22, 2025</p>
+  <p>Built with ❤️ by Kurt Overmier</p>
+  <p>Last updated: May 24, 2025</p>
 </div>
