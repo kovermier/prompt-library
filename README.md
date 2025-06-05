@@ -3,9 +3,10 @@
 A comprehensive collection of cutting-edge prompts, frameworks, and philosophical archetypal systems for transforming AI interaction from mechanical instruction-giving into an art form that honors both clarity and creativity.
 
 <div align="center">
+  <img src="https://img.shields.io/badge/Vibecoding_Archetypes-8-purple" alt="Vibecoding Archetypes">
   <img src="https://img.shields.io/badge/Frameworks-9-blue" alt="Frameworks">
-  <img src="https://img.shields.io/badge/Prompts-20+-green" alt="Prompts">
-  <img src="https://img.shields.io/badge/Version-3.0-orange" alt="Version">
+  <img src="https://img.shields.io/badge/Prompts-30+-green" alt="Prompts">
+  <img src="https://img.shields.io/badge/Version-3.1-orange" alt="Version">
 </div>
 
 ## 🌟 Overview
@@ -166,10 +167,10 @@ Documentation: [frameworks/fractal/fractal_framework.md](frameworks/fractal/frac
    - Increment the version number if making significant changes
    - Document major changes in the commit message
 
-3. **Applying Frameworks**:
-   - Study the framework documentation thoroughly
-   - Use the provided templates when available
-   - Combine frameworks for complex use cases
+4. **Applying Systems**:
+   - **For Vibecoding**: Start with archetypal resonance, experiment with fusions for complex needs
+   - **For Traditional Frameworks**: Study documentation thoroughly, use provided templates, combine for complex use cases
+   - **Integration**: Consider how vibecoding archetypes might enhance traditional framework applications
 
 ## 🤝 Contributing
 
@@ -187,5 +188,5 @@ Contributions are welcome! Please follow these steps:
 
 <div align="center">
   <p>Built with ❤️ by Kurt Overmier</p>
-  <p>Last updated: June 4, 2025</p>
+  <p>Last updated: January 6, 2025</p>
 </div>
