@@ -1,4 +1,4 @@
-# Fractal Framework Readme
+# Fractal Framework
 
 This framework offers a multi-scale approach to prompt engineering, addressing the complexities of reasoning within LLM constraints. It emphasizes structured decomposition, explicit context setting, and cross-scale integration for enhanced understanding and output quality.
 

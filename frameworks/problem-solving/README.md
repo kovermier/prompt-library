@@ -32,6 +32,17 @@ Key strengths:
 - Cross-scale pattern recognition
 - Systematic synthesis approach
 
+### METRICS+ Framework
+A layered analytical framework that processes information through multiple perspectives:
+1. Direct Analysis (explicit requirements)
+2. Meta Analysis (assumptions and biases)
+3. Pattern Recognition (cross-domain patterns)
+4. Knowledge Integration (research and experience)
+5. Emotional Processing (human factors)
+
+### Reasoning v2 Framework
+A comprehensive structured reasoning framework designed for general problem-solving applications.
+
 ## When to Use Problem-Solving Frameworks
 
 These frameworks are particularly valuable when:
@@ -48,6 +59,8 @@ These frameworks are particularly valuable when:
 |-----------|--------------|----------|------------|
 | ECARLM | State evolution modeling | Complex systems with evolving states | High |
 | Fractal | Multi-scale decomposition | Problems benefiting from analysis at different levels | Medium-High |
+| METRICS+ | Layered analysis | Cross-domain pattern recognition | Medium |
+| Reasoning v2 | Comprehensive reasoning | General problem solving | Medium |
 
 ## Usage Tips
 

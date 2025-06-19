@@ -4,8 +4,8 @@ A comprehensive collection of cutting-edge prompts, frameworks, and philosophica
 
 <div align="center">
   <img src="https://img.shields.io/badge/Vibecoding_Archetypes-8-purple" alt="Vibecoding Archetypes">
-  <img src="https://img.shields.io/badge/Frameworks-9-blue" alt="Frameworks">
-  <img src="https://img.shields.io/badge/Prompts-30+-green" alt="Prompts">
+  <img src="https://img.shields.io/badge/Frameworks-7-blue" alt="Frameworks">
+  <img src="https://img.shields.io/badge/Prompts-55-green" alt="Prompts">
   <img src="https://img.shields.io/badge/Version-3.1-orange" alt="Version">
 </div>
 
@@ -51,7 +51,7 @@ prompt-library/
 │   │   └── personas/  # Traditional coding personas
 │   ├── writing/       # Content creation and editing
 │   ├── analysis/      # Data and content analysis
-│   └── etc/           # Other specialized tasks
+│   └── design/        # Design and visual creation tasks
 ├── frameworks/        # Advanced prompting frameworks
 │   ├── ECARLM/        # Elementary Cellular Automata Reasoning
 │   ├── fractal/       # Multi-scale reasoning approach
@@ -147,6 +147,88 @@ A multi-scale approach to problem-solving that analyzes challenges at three leve
 
 Documentation: [frameworks/fractal/fractal_framework.md](frameworks/fractal/fractal_framework.md)
 
+## 🔍 Smart Search & Discovery
+
+This library includes powerful search tools for intelligent prompt discovery and navigation:
+
+### Quick Search Commands
+
+```bash
+# Search for prompts by keyword
+./search "automation workflow"
+
+# Search by tags
+./search -t analysis debugging optimization
+
+# Get task recommendations
+./search -r "I need to create API documentation"
+
+# Find prompts by vibecoding archetype
+./search -a "Truth Builder"
+
+# Search within specific categories
+./search -c "tasks/coding"
+
+# Find similar prompts
+./search -s "content strategy"
+
+# Detailed results with descriptions  
+./search -v "machine learning"
+```
+
+### Search Tools Overview
+
+- **🔍 `search-prompts.py`**: Multi-mode search engine with keyword, tag, category, archetype, and similarity search
+- **🗂️ `index-prompts.py`**: Maintains searchable metadata index from YAML frontmatter
+- **📊 `prompt-index.json`**: Generated searchable database of all prompts (55 prompts, 21 categories, 212 tags)
+
+### Search Modes Explained
+
+| Mode | Command | Purpose | Example |
+|------|---------|---------|---------|
+| **Keyword** | `./search "query"` | Full-text search across titles, tags, content | `./search "automation"` |
+| **Tags** | `./search -t tag1 tag2` | Match specific metadata tags | `./search -t debugging performance` |
+| **Category** | `./search -c "path"` | Filter by directory structure | `./search -c "frameworks"` |
+| **Archetype** | `./search -a "name"` | Find vibecoding archetypal prompts | `./search -a "Pattern Synthesizer"` |
+| **Similarity** | `./search -s "concept"` | Find related prompts by concept | `./search -s "code review"` |
+| **Recommendations** | `./search -r "task description"` | AI-powered task matching | `./search -r "debug Python errors"` |
+
+**[Complete Search Documentation →](tools/README.md)**
+
+## 🤖 Using with Claude Code
+
+This library is optimized for use with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's official CLI tool:
+
+### Integration Tips
+
+1. **Repository Context**: Claude Code automatically reads `CLAUDE.md` for repository-specific instructions and conventions
+2. **Search Integration**: Use the search tools to find relevant prompts before asking Claude to create new ones
+3. **Prompt Discovery**: Ask Claude to search the library first: *"Search for existing automation prompts before creating new ones"*
+4. **Framework Application**: Reference specific frameworks: *"Apply the METRICS+ framework to analyze this data"*
+5. **Archetype Selection**: Use vibecoding archetypes: *"Respond as the Truth Builder archetype for this analysis"*
+
+### Recommended Workflow
+
+```bash
+# 1. Search for existing solutions
+./search -r "your task description"
+
+# 2. If found, use existing prompts
+# 3. If creating new prompts, update index
+./update-index
+
+# 4. Use Claude Code with library context
+claude-code --model claude-3-5-sonnet
+```
+
+### Claude Code Best Practices
+
+- **Reference Library**: Always check existing prompts before requesting new ones
+- **Follow Conventions**: Use the YAML frontmatter format and naming conventions
+- **Update Index**: Run `./update-index` after adding/modifying prompts
+- **Leverage Search**: Use specific search modes to find the most relevant prompts
+- **Combine Systems**: Blend vibecoding archetypes with traditional frameworks for complex tasks
+
 ## 🚀 Usage Guidelines
 
 1. **Getting Started with Vibecoding**:
@@ -188,5 +270,5 @@ Contributions are welcome! Please follow these steps:
 
 <div align="center">
   <p>Built with ❤️ by Kurt Overmier</p>
-  <p>Last updated: January 6, 2025</p>
+  <p>Last updated: June 19, 2025</p>
 </div>

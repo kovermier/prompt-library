@@ -4,7 +4,14 @@
       "Bash(find:*)",
       "WebFetch(domain:github.com)",
       "Bash(mkdir:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(chmod:*)",
+      "Bash(python tools/index-prompts.py:*)",
+      "Bash(python3 tools/index-prompts.py:*)",
+      "Bash(python3 tools/search-prompts.py:*)",
+      "Bash(./search:*)",
+      "Bash(python tools/search-prompts.py:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }

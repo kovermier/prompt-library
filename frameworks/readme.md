@@ -36,21 +36,32 @@ Each framework in this library follows a standardized format:
 
 ## Available Frameworks
 
-### Decision-Making Frameworks
+### Decision-Making Frameworks (2 frameworks)
 Frameworks optimized for structured decision processes:
 - Enhanced Global Analysis Framework (EGAF)
 - Enhanced Logic-Based Synergistic Framework (ELSF)
 
-### Creativity Frameworks
-Frameworks designed to enhance creative thinking and innovation:
-- [No frameworks currently categorized here]
+### Creativity Frameworks (No specific frameworks categorized)
+Frameworks designed to enhance creative thinking and innovation.
 
-### Problem-Solving Frameworks
+### Problem-Solving Frameworks (4 frameworks)
 Frameworks focused on systematic problem decomposition and resolution:
 - ECARLM (Elementary Cellular Automata Reasoning for Language Models)
 - METRICS+ Framework
 - Fractal Framework
 - Reasoning v2 Framework
+
+### Prompt Structure Frameworks (1 framework)
+Meta-frameworks for prompt design:
+- Enhanced Recursive Tagging System (ERTS)
+
+### Multi-Domain Frameworks (5 frameworks)
+Frameworks with standalone implementations spanning multiple domains:
+- ECARLM Implementation
+- EGAF Implementation
+- Fractal Implementation
+- METRICS+ Implementation
+- Modular Context Protocol Architecture (MCPA)
 
 ## Framework Comparison
 

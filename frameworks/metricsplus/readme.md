@@ -1,4 +1,4 @@
-# METRICS+ Framework: A Layered Approach to Problem Solving
+# METRICS+ Framework
 
 The METRICS+ framework provides a structured approach to problem-solving, emphasizing a layered analysis process. Each response generated using this framework must consider the following layers in order:
 

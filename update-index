@@ -1,0 +1,8 @@
+#!/bin/bash
+# Update the prompt index
+# Run this after adding, modifying, or removing prompt files
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+echo "🔄 Updating prompt index..."
+python3 "$SCRIPT_DIR/tools/index-prompts.py"
+echo "✅ Index updated! Use ./search to find prompts."
