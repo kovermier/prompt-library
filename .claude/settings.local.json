@@ -11,7 +11,15 @@
       "Bash(python3 tools/search-prompts.py:*)",
       "Bash(./search:*)",
       "Bash(python tools/search-prompts.py:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(ls:*)",
+      "Bash(diff:*)",
+      "mcp__filesystem__read_multiple_files",
+      "mcp__filesystem__list_allowed_directories",
+      "Bash(./update-index)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python3 tools/context-analyzer.py:*)"
     ],
     "deny": []
   }

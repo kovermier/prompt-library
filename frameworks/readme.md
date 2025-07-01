@@ -36,43 +36,38 @@ Each framework in this library follows a standardized format:
 
 ## Available Frameworks
 
-### Decision-Making Frameworks (2 frameworks)
+### Context Optimization Frameworks (1 framework)
+Revolutionary approach to prompt engineering:
+- **[Context Engineering](./context-engineering/)** - Transform prompts into dynamic, efficient context fields
+
+### Decision-Making Frameworks
 Frameworks optimized for structured decision processes:
-- Enhanced Global Analysis Framework (EGAF)
-- Enhanced Logic-Based Synergistic Framework (ELSF)
+- **[Enhanced Global Analysis Framework (EGAF)](./EGAF/)** - Cultural adaptability and global problem-solving
+- **[Enhanced Logic-Based Synergistic Framework (ELSF)](./elsf/)** - Logic and pattern integration
 
-### Creativity Frameworks (No specific frameworks categorized)
-Frameworks designed to enhance creative thinking and innovation.
-
-### Problem-Solving Frameworks (4 frameworks)
+### Problem-Solving Frameworks
 Frameworks focused on systematic problem decomposition and resolution:
-- ECARLM (Elementary Cellular Automata Reasoning for Language Models)
-- METRICS+ Framework
-- Fractal Framework
-- Reasoning v2 Framework
+- **[ECARLM](./ECARLM/)** - Elementary Cellular Automata Reasoning for Language Models
+- **[METRICS+](./metricsplus/)** - Layered analytical framework with pattern recognition
+- **[Fractal Framework](./fractal/)** - Multi-scale hierarchical analysis
+- **[Reasoning v2](./reasoning/)** - Comprehensive reasoning methodology
 
-### Prompt Structure Frameworks (1 framework)
-Meta-frameworks for prompt design:
-- Enhanced Recursive Tagging System (ERTS)
-
-### Multi-Domain Frameworks (5 frameworks)
-Frameworks with standalone implementations spanning multiple domains:
-- ECARLM Implementation
-- EGAF Implementation
-- Fractal Implementation
-- METRICS+ Implementation
-- Modular Context Protocol Architecture (MCPA)
+### Architecture Frameworks
+System-level frameworks for AI interaction:
+- **[Modular Context Protocol Architecture (MCPA)](./mcpa/)** - Next-generation protocol-based architecture
 
 ## Framework Comparison
 
 | Framework | Key Strength | Best For | Complexity |
 |-----------|--------------|----------|------------|
+| Context Engineering | Token efficiency & emergence | All prompts - optimization layer | Low-Medium |
 | ECARLM | Multi-scale state evolution | Complex systems modeling | High |
 | EGAF | Cultural adaptability | Global, multi-domain problems | Medium-High |
 | ELSF | Logic and pattern integration | Technical problem-solving | Medium |
 | Fractal | Structured decomposition | Hierarchical problems | Medium-High |
 | METRICS+ | Pattern recognition | Cross-domain insights | Medium |
 | Reasoning v2 | Comprehensive reasoning | General problem solving | Medium |
+| MCPA | Protocol-based architecture | System integration | High |
 
 ## How to Use These Frameworks
 

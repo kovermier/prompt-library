@@ -5,7 +5,7 @@ tags: ["coding", "react", "frontend", "javascript", "web development"]
 created: "2024-03-22"
 updated: "2025-05-24"
 version: 1.1
-author: "Your Name"
+author: "Prompt Library"
 effectiveness_rating: 4.8
 model_requirements: "GPT-4 or equivalent"
 ---

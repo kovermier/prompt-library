@@ -4,9 +4,9 @@ A comprehensive collection of cutting-edge prompts, frameworks, and philosophica
 
 <div align="center">
   <img src="https://img.shields.io/badge/Vibecoding_Archetypes-8-purple" alt="Vibecoding Archetypes">
-  <img src="https://img.shields.io/badge/Frameworks-7-blue" alt="Frameworks">
-  <img src="https://img.shields.io/badge/Prompts-55-green" alt="Prompts">
-  <img src="https://img.shields.io/badge/Version-3.1-orange" alt="Version">
+  <img src="https://img.shields.io/badge/Frameworks-9-blue" alt="Frameworks">
+  <img src="https://img.shields.io/badge/Prompts-47-green" alt="Prompts">
+  <img src="https://img.shields.io/badge/Version-3.2-orange" alt="Version">
 </div>
 
 ## 🌟 Overview
@@ -62,11 +62,11 @@ prompt-library/
 │   ├── reasoning/     # Structured reasoning framework
 │   ├── decision-making/ # Decision-specific frameworks
 │   ├── creativity/    # Creative process frameworks
+│   ├── problem-solving/ # Problem-solving methodologies
 │   └── prompt-structure/ # Meta-frameworks for prompt design
-└── templates/         # Reusable prompt templates
-    ├── basic.md       # Simple prompt structure
-    ├── advanced.md    # Advanced prompt with all features
-    └── erts-template.md # ERTS framework template
+├── templates/         # Reusable prompt templates
+├── tools/             # Search and indexing utilities
+└── chains/            # Complex multi-step workflows
 ```
 
 ## 📋 File Format
@@ -147,6 +147,18 @@ A multi-scale approach to problem-solving that analyzes challenges at three leve
 
 Documentation: [frameworks/fractal/fractal_framework.md](frameworks/fractal/fractal_framework.md)
 
+### 🧠 Context Engineering
+
+Revolutionary approach that transforms prompts into dynamic, efficient context fields. Instead of verbose instructions, Context Engineering treats the context window as a neural field where information can be:
+- Minimized to essential elements (80-90% token reduction)
+- Structured as attractors and repulsors
+- Designed for emergent understanding
+- Measured and optimized continuously
+
+Key principles: First principles thinking, token budgeting, field dynamics, emergence design.
+
+Documentation: [frameworks/context-engineering/](frameworks/context-engineering/)
+
 ## 🔍 Smart Search & Discovery
 
 This library includes powerful search tools for intelligent prompt discovery and navigation:
@@ -180,7 +192,7 @@ This library includes powerful search tools for intelligent prompt discovery and
 
 - **🔍 `search-prompts.py`**: Multi-mode search engine with keyword, tag, category, archetype, and similarity search
 - **🗂️ `index-prompts.py`**: Maintains searchable metadata index from YAML frontmatter
-- **📊 `prompt-index.json`**: Generated searchable database of all prompts (55 prompts, 21 categories, 212 tags)
+- **📊 `prompt-index.json`**: Generated searchable database of all prompts (47 prompts, 16 categories, 196 tags)
 
 ### Search Modes Explained
 
@@ -270,5 +282,5 @@ Contributions are welcome! Please follow these steps:
 
 <div align="center">
   <p>Built with ❤️ by Kurt Overmier</p>
-  <p>Last updated: June 19, 2025</p>
+  <p>Last updated: July 1, 2025</p>
 </div>

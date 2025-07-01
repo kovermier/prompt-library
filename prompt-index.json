@@ -1,15 +1,12 @@
 {
   "metadata": {
-    "created": "2025-06-19T08:10:10.120139",
-    "total_prompts": 55,
+    "created": "2025-07-01T18:05:31.579076",
+    "total_prompts": 47,
     "categories": {
       "chains": 2,
-      "frameworks/decision-making": 1,
       "frameworks/architecture": 1,
       "frameworks/mcpa/protocols": 3,
-      "frameworks/problem-solving": 4,
-      "frameworks/prompt-structure": 1,
-      "tasks/analysis": 5,
+      "tasks/analysis": 6,
       "analysis/ai-testing": 1,
       "analysis/prompt-engineering": 1,
       "tasks/analysis/audio": 1,
@@ -21,9 +18,7 @@
       "tasks/design": 1,
       "tasks/vibecoding": 9,
       "tasks/writing": 11,
-      "writing/professional": 1,
-      "category/subcategory": 2,
-      "templates": 1
+      "writing/professional": 1
     },
     "tags": {
       "content creation": 5,
@@ -36,15 +31,10 @@
       "image generation": 2,
       "design": 2,
       "social media": 2,
-      "decision-making": 1,
-      "cross-cultural": 1,
-      "problem-solving": 5,
-      "resource optimization": 1,
-      "pattern recognition": 3,
       "llm": 1,
       "protocol": 4,
       "mcp": 1,
-      "reasoning": 3,
+      "reasoning": 1,
       "multimodal": 3,
       "tool-use": 1,
       "context": 1,
@@ -53,25 +43,17 @@
       "integration": 2,
       "tools": 1,
       "orchestration": 1,
-      "cellular automata": 1,
-      "multi-scale": 2,
-      "quantum-inspired": 1,
-      "prompt engineering": 2,
-      "structured reasoning": 1,
-      "decomposition": 1,
-      "layered analysis": 1,
-      "meta-cognition": 1,
-      "emotional intelligence": 1,
-      "critical thinking": 1,
-      "analysis": 4,
-      "solution generation": 1,
-      "framework": 2,
-      "tagging": 1,
-      "hierarchy": 1,
-      "llm-interaction": 1,
-      "automation": 1,
+      "automation": 2,
       "systems thinking": 2,
+      "pattern recognition": 1,
       "process optimization": 1,
+      "lead generation": 1,
+      "app development": 1,
+      "market analysis": 1,
+      "business development": 1,
+      "vertical targeting": 1,
+      "pitch development": 1,
+      "B2B": 1,
       "process flows": 1,
       "functionalities": 1,
       "documentation": 3,
@@ -101,6 +83,7 @@
       "visual assessment": 1,
       "audio": 1,
       "reconciliation": 1,
+      "analysis": 3,
       "evidence-based": 1,
       "adjudication": 1,
       "txt2img": 1,
@@ -210,6 +193,7 @@
       "image": 1,
       "visual": 1,
       "photography": 1,
+      "prompt engineering": 1,
       "visual design": 1,
       "AI art": 1,
       "graphic design": 1,
@@ -232,12 +216,7 @@
       "training": 1,
       "education": 1,
       "content development": 1,
-      "instructional design": 1,
-      "tag1": 2,
-      "tag2": 2,
-      "tag3": 2,
-      "erts": 1,
-      "template": 1
+      "instructional design": 1
     },
     "archetypes": [
       "Pattern Synthesizer",
@@ -288,36 +267,6 @@
       "updated": "2025-01-06",
       "version": 1.0,
       "author": "Prompt Library"
-    },
-    {
-      "title": "Title of the Advanced Prompt",
-      "path": "templates/advanced.md",
-      "category": "category/subcategory",
-      "tags": [
-        "tag1",
-        "tag2",
-        "tag3"
-      ],
-      "description": "Detailed explanation of when and how to use this prompt, including specific use cases and scenarios.",
-      "created": "YYYY-MM-DD",
-      "updated": "YYYY-MM-DD",
-      "version": 1.0,
-      "author": "Your Name"
-    },
-    {
-      "title": "Title of the Prompt",
-      "path": "templates/basic.md",
-      "category": "category/subcategory",
-      "tags": [
-        "tag1",
-        "tag2",
-        "tag3"
-      ],
-      "description": "Brief explanation of when and how to use this prompt.",
-      "created": "YYYY-MM-DD",
-      "updated": "YYYY-MM-DD",
-      "version": 1.0,
-      "author": "Your Name"
     },
     {
       "title": "Content Development Chain",
@@ -391,23 +340,6 @@
       "author": ""
     },
     {
-      "title": "Enhanced Global Analysis Framework (EGAF)",
-      "path": "frameworks/decision-making/enhanced_global_analysis_framework.md",
-      "category": "frameworks/decision-making",
-      "tags": [
-        "decision-making",
-        "cross-cultural",
-        "problem-solving",
-        "resource optimization",
-        "pattern recognition"
-      ],
-      "description": "The Enhanced Global Analysis Framework (EGAF) is designed for tackling complex problems across diverse domains with a focus on cultural adaptability, resource optimization, and universal applicability. It's particularly valuable for global challenges that span different cultural contexts and require scalable, adaptable solutions.",
-      "created": "2024-03-22",
-      "updated": "2024-03-22",
-      "version": 1.0,
-      "author": "Original Author"
-    },
-    {
       "title": "Context Exchange Protocol (CEP)",
       "path": "frameworks/mcpa/protocols/context_exchange_protocol.md",
       "category": "frameworks/mcpa/protocols",
@@ -456,88 +388,27 @@
       "author": ""
     },
     {
-      "title": "ECARLM: Elementary Cellular Automata Reasoning Framework",
-      "path": "frameworks/problem-solving/ecarlm_framework.md",
-      "category": "frameworks/problem-solving",
+      "title": "Automation Leadfinder App Architect",
+      "path": "tasks/analysis/automation-leadfinder-app-architect.md",
+      "category": "tasks/analysis",
       "tags": [
-        "reasoning",
-        "cellular automata",
-        "multi-scale",
-        "quantum-inspired",
-        "problem-solving"
+        "automation",
+        "lead generation",
+        "app development",
+        "market analysis",
+        "business development",
+        "vertical targeting",
+        "pitch development",
+        "B2B"
       ],
-      "description": "The ECARLM framework implements a multi-scale processing approach inspired by cellular automata and quantum computation principles. It's designed for complex problem-solving tasks that require systematic analysis across different levels of abstraction.",
-      "created": "2024-03-22",
-      "updated": "2024-03-22",
+      "description": "You synthesize market intelligence, automation design, and business development patterns to create comprehensive application specifications for lead generation systems. This prompt combines systematic market analysis with automation flow architecture to transform abstract app concepts into detailed, actionable development specifications that serve both technical implementation and business success.",
+      "created": "2025-01-20",
+      "updated": "2025-01-20",
       "version": 1.0,
-      "author": "Original Author"
-    },
-    {
-      "title": "Fractal Framework",
-      "path": "frameworks/problem-solving/fractal_framework.md",
-      "category": "frameworks/problem-solving",
-      "tags": [
-        "problem-solving",
-        "multi-scale",
-        "prompt engineering",
-        "structured reasoning",
-        "decomposition"
-      ],
-      "description": "The Fractal Framework provides a multi-scale, structured approach to complex problem-solving that matches how large language models process information. It addresses limitations like context windows while ensuring comprehensive analysis through recursive decomposition and explicit reasoning steps. This framework is particularly valuable for breaking down complex problems that benefit from analysis at different levels of abstraction.",
-      "created": "2024-03-22",
-      "updated": "2024-03-22",
-      "version": 1.0,
-      "author": "Original Author"
-    },
-    {
-      "title": "METRICS+ Framework",
-      "path": "frameworks/problem-solving/metrics_plus_framework.md",
-      "category": "frameworks/problem-solving",
-      "tags": [
-        "problem-solving",
-        "layered analysis",
-        "pattern recognition",
-        "meta-cognition",
-        "emotional intelligence"
-      ],
-      "description": "The METRICS+ framework provides a structured, layered approach to problem-solving that ensures comprehensive analysis from multiple perspectives. It guides the problem-solving process through five distinct cognitive layers, from direct analysis to emotional processing, resulting in solutions that are both practical and insightful. This framework is particularly valuable for complex problems that benefit from meta-cognitive analysis and cross-domain pattern recognition.",
-      "created": "2024-03-22",
-      "updated": "2024-03-22",
-      "version": 1.0,
-      "author": "Original Author"
-    },
-    {
-      "title": "Reasoning v2 Framework",
-      "path": "frameworks/problem-solving/reasoning_v2_framework.md",
-      "category": "frameworks/problem-solving",
-      "tags": [
-        "reasoning",
-        "problem-solving",
-        "critical thinking",
-        "analysis",
-        "solution generation"
-      ],
-      "description": "The Reasoning v2 Framework provides a comprehensive, step-by-step approach to problem-solving that emphasizes rigorous analysis, multiple solution generation, and critical review. It's designed to enhance the quality of reasoning by ensuring no crucial steps are skipped, potential biases are identified, and solutions are optimized for accuracy and effectiveness. This framework can be applied to virtually any type of problem or query.",
-      "created": "2024-03-22",
-      "updated": "2024-03-22",
-      "version": 1.0,
-      "author": "Original Author"
-    },
-    {
-      "title": "Enhanced Recursive Tagging System (ERTS)",
-      "path": "frameworks/prompt-structure/erts.md",
-      "category": "frameworks/prompt-structure",
-      "tags": [
-        "framework",
-        "tagging",
-        "hierarchy",
-        "llm-interaction"
-      ],
-      "description": "A robust and adaptable framework designed for seamless interaction with Language Model-based models (LLMs). ERTS facilitates the generation of precise instructions for LLMs across various tasks, including legal document analysis, financial reports, technical support responses, and content creation.",
-      "created": "2025-03-22",
-      "updated": "2025-03-22",
-      "version": 1.0,
-      "author": ""
+      "author": "The Vibe Coder",
+      "archetype": "Pattern Synthesizer",
+      "philosophical_fusion": "",
+      "core_principle": ""
     },
     {
       "title": "Curating Process Flows and Functionalities for Documentation",
@@ -787,7 +658,7 @@
       "created": "2024-03-22",
       "updated": "2025-05-24",
       "version": 1.1,
-      "author": "Your Name"
+      "author": "Prompt Library"
     },
     {
       "title": "UI/UX Experience Architect",
@@ -1180,21 +1051,6 @@
       "updated": "2024-03-22",
       "version": 1.0,
       "author": "Contributed Author"
-    },
-    {
-      "title": "ERTS Framework Template",
-      "path": "templates/erts-template.md",
-      "category": "templates",
-      "tags": [
-        "erts",
-        "framework",
-        "template"
-      ],
-      "description": "```\n[ERTS FRAMEWORK IMPLEMENTATION]",
-      "created": "2025-03-22",
-      "updated": "2025-03-22",
-      "version": 1.0,
-      "author": ""
     },
     {
       "title": "Career Application Strategist",

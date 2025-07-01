@@ -36,6 +36,29 @@ Creates and updates the searchable index of all prompts:
 - Tracks tags, categories, and archetypes
 - Outputs to `prompt-index.json`
 
+### 📊 `context-analyzer.py`
+Analyzes prompts for context engineering optimization opportunities:
+
+- Calculates token usage and redundancy
+- Identifies optimization patterns
+- Suggests context engineering techniques
+- Generates optimization reports
+
+Usage:
+```bash
+# Analyze all prompts
+python3 tools/context-analyzer.py
+
+# Analyze specific category
+python3 tools/context-analyzer.py -c tasks/writing
+
+# Export detailed JSON report
+python3 tools/context-analyzer.py -j analysis.json
+
+# Save report to file
+python3 tools/context-analyzer.py -o optimization-report.md
+```
+
 ### 📊 Generated Files
 
 - **`prompt-index.json`**: Searchable metadata for all prompts

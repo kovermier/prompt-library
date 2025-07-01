@@ -1,6 +1,15 @@
-# Prompt Chains
+# 🔗 Prompt Chains
 
 This directory contains prompt chains - sequences of prompts designed to work together to accomplish complex tasks. Each chain connects multiple specialized prompts where the output of one becomes the input for the next.
+
+## 📊 Chain Overview
+
+| Chain Name | Stages | Domain | Description |
+|------------|--------|---------|-------------|
+| [Content Development Chain](./content_development_chain.md) | 5 | Content Creation | End-to-end workflow from ideation to publication |
+| [Visual Content Chain](./visual_content_chain.md) | 4 | Visual Design | Social media visual content from concept to post |
+
+**Total: 2 Multi-Stage Chains**
 
 ## What Is a Prompt Chain?
 
@@ -24,10 +33,18 @@ Each prompt chain in this directory includes:
 - **Example Workflow**: A concrete example of the chain in action
 - **Variations**: Suggested modifications for different use cases
 
-## Available Chains
+## 🚀 Quick Start
 
-- **Content Development Chain**: A complete workflow for creating content from ideation to publication
-- **Visual Content Chain**: A process for creating visual social media content from concept to finished post
+```bash
+# Search for available chains
+./search -c "chains"
+
+# Find chains by domain
+./search -t "content creation" "workflow"
+
+# Get chain recommendations
+./search -r "I need a multi-step content workflow"
+```
 
 ## How to Use Prompt Chains
 
