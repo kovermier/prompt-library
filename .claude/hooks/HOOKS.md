@@ -2,6 +2,23 @@
 
 This directory contains hook scripts that enforce the coding standards and practices defined in CLAUDE.md.
 
+## Deployment to Other Projects
+
+To deploy these hooks to other projects, use the deployment script:
+
+```bash
+# Deploy entire Claude framework including hooks
+.claude/deploy-claude.sh /path/to/project
+```
+
+The deployment script will:
+- Copy all hooks to the target project
+- Set appropriate permissions
+- Configure settings.json with hook mappings
+- Auto-detect project type for language-specific hooks
+
+See [DEPLOYMENT.md](../DEPLOYMENT.md) for detailed deployment instructions.
+
 ## Active Hooks
 
 ### PreToolUse Hooks

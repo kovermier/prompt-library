@@ -241,6 +241,41 @@ claude-code --model claude-3-5-sonnet
 - **Leverage Search**: Use specific search modes to find the most relevant prompts
 - **Combine Systems**: Blend vibecoding archetypes with traditional frameworks for complex tasks
 
+## 🚀 Claude Framework Deployment
+
+This repository includes a sophisticated framework for deploying Claude development practices to any project:
+
+### Quick Deployment
+
+```bash
+# Deploy Claude framework to any project
+.claude/deploy-claude.sh /path/to/your/project
+```
+
+### What Gets Deployed
+
+1. **`.claude/CLAUDE.md`** - Project-specific instructions and guidelines
+2. **`.claude/hooks/`** - Automated validation scripts with smart language detection
+3. **`.claude/commands/`** - Custom slash commands for enhanced workflows
+4. **`.claude/settings.json`** - Tool-specific hook configurations
+
+### Key Features
+
+- **Auto-Detection**: Automatically detects project type (Node, Rust, Python, Go, Java)
+- **Smart Hooks**: Language-aware linting and validation that runs automatically
+- **Enforcement Philosophy**: Zero-tolerance approach to code quality issues
+- **Project Customization**: Generates project-specific configurations while inheriting global rules
+
+### Framework Components
+
+- **Research → Plan → Implement** workflow enforcement
+- **Test-Driven Development (TDD)** requirements
+- **Reality checkpoints** after each feature
+- **Forbidden practices** enforcement
+- **Tool-specific hook matchers** for targeted validation
+
+**[Complete Deployment Documentation →](.claude/DEPLOYMENT.md)**
+
 ## 🚀 Usage Guidelines
 
 1. **Getting Started with Vibecoding**:
