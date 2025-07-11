@@ -5,7 +5,7 @@ tags: ["audio", "reconciliation", "analysis", "evidence-based", "adjudication"]
 created: "2025-05-24"
 updated: "2025-05-24"
 version: 1.0
-author: "Kurt Overmier"
+author: "[Author]"
 ---
 
 # Audio Analysis Reconciliation Expert

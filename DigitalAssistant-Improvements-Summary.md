@@ -13,8 +13,8 @@ The DigitalAssistant team has already implemented several improvements to their 
 
 ### 1. Create .claude Directory Structure
 ```bash
-mkdir -p /mnt/c/Users/kover/Documents/GitHub/DigitalAssistant/.claude/commands
-mkdir -p /mnt/c/Users/kover/Documents/GitHub/DigitalAssistant/.claude/hooks
+mkdir -p ~/projects/DigitalAssistant/.claude/commands
+mkdir -p ~/projects/DigitalAssistant/.claude/hooks
 ```
 
 ### 2. Implement Key Commands
@@ -22,7 +22,7 @@ Start with these essential commands in `.claude/commands/`:
 - `memory.md` - Memory system best practices
 - `search.md` - Advanced memory search strategies
 - `python.md` - Python standards for the project
-- `kurt.md` - User preferences and communication style
+- `user.md` - User preferences and communication style
 
 ### 3. Implement Basic Hooks
 Begin with these practical hooks in `.claude/hooks/`:
@@ -44,7 +44,7 @@ Begin with these practical hooks in `.claude/hooks/`:
     "memory": ".claude/commands/memory.md",
     "search": ".claude/commands/search.md",
     "python": ".claude/commands/python.md",
-    "kurt": ".claude/commands/kurt.md"
+    "user": ".claude/commands/user.md"
   }
 }
 ```

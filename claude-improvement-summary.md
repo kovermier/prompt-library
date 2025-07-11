@@ -15,7 +15,7 @@ Identity → Memory → Development → Commands → Tools → Context
 - Combined tool access descriptions
 
 ### 3. **Extracted Embedded Content**
-- Moved "The Vibe Coder" FoodFiles content to `/foodfiles-vibecoder` command
+- Moved "The Vibe Coder" project content to `/project-vibecoder` command
 - This was 100+ lines that interrupted the flow
 - Now accessible via command when needed
 
@@ -23,7 +23,7 @@ Identity → Memory → Development → Commands → Tools → Context
 Grouped by purpose:
 - **Development**: /tdd, /typescript, /functional, /refactor
 - **Philosophy**: /vibecoder, /patterns  
-- **Projects**: /sbs, /foodfiles, /tamlyno
+- **Projects**: /project1, /project2, /project3
 - **Utilities**: /search, /frameworks, /memory
 
 ### 5. **Cleaner Sections**
@@ -51,7 +51,7 @@ The improved version maintains all functionality while being:
 ## Files Created
 
 1. `claude-improved.md` - The streamlined main configuration
-2. `.claude/commands/foodfiles-vibecoder.md` - Extracted FoodFiles philosophy
+2. `.claude/commands/project-vibecoder.md` - Extracted project philosophy
 3. This summary document
 
 The original remains unchanged at `claude.md` for comparison.

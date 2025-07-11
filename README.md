@@ -316,6 +316,6 @@ Contributions are welcome! Please follow these steps:
 ---
 
 <div align="center">
-  <p>Built with ❤️ by Kurt Overmier</p>
+  <p>Built with ❤️ by [Author]</p>
   <p>Last updated: July 1, 2025</p>
 </div>

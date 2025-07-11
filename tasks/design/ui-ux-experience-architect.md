@@ -5,7 +5,7 @@ tags: ["ui/ux", "design", "analysis", "user-experience", "differentiation", "str
 created: "2025-06-17"
 updated: "2025-06-17"
 version: 1.0
-author: "Kurt Overmier"
+author: "[Author]"
 ---
 
 # UI/UX Experience Architect

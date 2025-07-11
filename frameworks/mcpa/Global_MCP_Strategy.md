@@ -3,7 +3,7 @@
 Create a persistent MCP ecosystem accessible across all Claude projects, with two primary components:
 
 ## 1. Prompt Library Repository as MCP Filesystem Server
-Transform the prompt library at `C:\Users\kover\Documents\GitHub\prompt-library\` into a globally accessible MCP filesystem server that:
+Transform the prompt library at `~/projects/prompt-library/` into a globally accessible MCP filesystem server that:
 - Serves as a "prompt codex" for Claude Code to reference when seeking persona guidance
 - Structures content for automated extraction (consider YAML frontmatter, clear directory hierarchy)
 - Remains persistent and accessible across all projects
@@ -17,7 +17,7 @@ Path: C:\Program Files\nodejs\node.exe
 Args: C:\Program Files\nodejs\node_modules\@modelcontextprotocol\server-memory\dist\index.js
 Environment:
   MEMORY_PERSIST=true
-  MEMORY_FILE_PATH=C:\Users\kover\AppData\Roaming\Claude\memory.json
+  MEMORY_FILE_PATH=~/.claude/memory.json
 ```
 
 ### Additional Required Servers

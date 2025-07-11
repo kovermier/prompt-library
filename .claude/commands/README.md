@@ -15,9 +15,9 @@ This directory contains custom slash commands that enhance Claude Code's capabil
 
 ## Project-Specific Commands
 
-- `/sbs` - SmartBrandStrategies AI Worker documentation
-- `/foodfiles` - FoodFiles project specifics
-- `/tamlyno` - TamlyNO.com project details
+- `/project1` - Example project documentation
+- `/project2` - Another project specifics
+- `/project3` - Third project details
 
 ## Deployment to Other Projects
 

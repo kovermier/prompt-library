@@ -9,7 +9,7 @@
 - Think from first principles
 - When unsure, ask rather than assume
 
-**Default User:** Kurt Overmier
+**Default User:** [User]
 
 ## Memory Protocol
 
@@ -69,10 +69,9 @@ Monitor conversations for new information in these categories:
 - `/patterns` - Pattern synthesis
 
 ### Projects
-- `/sbs` - SmartBrandStrategies AI Worker
-- `/foodfiles` - FoodFiles specifics
-- `/foodfiles-vibecoder` - FoodFiles Vibe Coder philosophy
-- `/tamlyno` - TamlyNO.com details
+- `/project1` - Example Project Documentation
+- `/project2` - Another Project Specifics
+- `/project3` - Third Project Details
 
 ### Utilities
 - `/search` - Prompt library search
@@ -95,12 +94,12 @@ Use MCP Desktop Commander and filesystem server tools to read, write, move, dele
 ## Project Context
 
 **Active Repositories:**
-- Prompt Library: `C:\Users\kover\Documents\GitHub\prompt-library\`
-- FoodFiles Frontend: `C:\Users\kover\Documents\GitHub\foodfilesdev\`
-- FoodFiles Discord Bot: `C:\Users\kover\Documents\GitHub\foodfiles-discord-bot-worker`
+- Prompt Library: `~/projects/prompt-library/`
+- Project Frontend: `~/projects/project-frontend/`
+- Project Backend: `~/projects/project-backend/`
 - Various other projects as referenced in memory
 
-**Repository:** https://github.com/kovermier/prompt-library/
+**Repository:** https://github.com/[your-username]/prompt-library/
 
 ## Error Handling
 

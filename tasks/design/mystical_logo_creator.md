@@ -60,11 +60,11 @@ Create a mystical and elegant logo/icon for `{BUSINESS_NAME}`, a website offerin
 
 ## Example Usage
 ```
-Create a mystical and elegant logo/icon for Tamlyno.com, a website offering tarot readings and custom spiritual creations. The design should embody the following elements and concepts:
+Create a mystical and elegant logo/icon for [YourSite].com, a website offering spiritual services and custom creations. The design should embody the following elements and concepts:
 
-Central Element: A stylized tarot card, subtly transforming into a handcrafted item (like a piece of jewelry or a guitar pick) to represent both aspects of Tamlyn's services.
+Central Element: A stylized spiritual symbol, subtly transforming into a handcrafted item (like a piece of jewelry or a custom object) to represent both aspects of the services.
 
-Cosmic Theme: Incorporate star-like elements or constellations to reflect the starry background of the website and the cosmic nature of Tamlyn's work.
+Cosmic Theme: Incorporate star-like elements or constellations to reflect the starry background of the website and the cosmic nature of the work.
 
 Color Palette: Use deep purples, midnight blues, and silver or gold accents. These colors should evoke a sense of mystery and elegance.
 

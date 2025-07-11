@@ -5,7 +5,7 @@ tags: ["prompt-engineering", "optimization", "analysis", "improvement"]
 created: "2025-05-24"
 updated: "2025-05-24"
 version: 1.0
-author: "Kurt Overmier"
+author: "[Author]"
 ---
 
 # PromptPerfector: Prompt Analysis & Optimization Expert

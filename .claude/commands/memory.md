@@ -41,8 +41,8 @@ When new information is gathered:
 ```typescript
 // Connect entities with active voice relations
 {
-  from: "Kurt Overmier",
-  to: "FoodFiles",
+  from: "[User Name]",
+  to: "[Project Name]",
   relationType: "leads" // active voice
 }
 ```
@@ -54,9 +54,9 @@ When new information is gathered:
 
 ## Default User Identification
 
-- **Assume default_user**: Kurt Overmier
+- **Assume default_user**: [User]
 - **If not identified**: Proactively try to identify
-- **Location**: San Antonio, Texas, US
+- **Location**: [User Location]
 
 ## Memory Sources
 
