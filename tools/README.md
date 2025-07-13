@@ -18,6 +18,27 @@ From the repository root:
 
 ## Tools Overview
 
+### 🚀 `adhd-optimizer/`
+Transforms any prompt into a context-optimized version using ADHD principles:
+
+- **40-60% token reduction** while maintaining information fidelity
+- **Multiple interfaces**: Web UI, Python CLI, batch script
+- **Auto-detects style**: technical, debug, learning, creative
+- **Provides metrics**: token counts, clarity scores, structure analysis
+- **Identifies implicit needs** in prompts
+
+Quick usage:
+```bash
+# Command line
+python tools/adhd-optimizer/optimize.py "Your long prompt here"
+
+# Interactive mode
+python tools/adhd-optimizer/optimize.py -i
+
+# Web interface
+open tools/adhd-optimizer/optimizer.html
+```
+
 ### 🔍 `search-prompts.py`
 The main search engine with multiple search modes:
 

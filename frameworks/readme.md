@@ -36,9 +36,10 @@ Each framework in this library follows a standardized format:
 
 ## Available Frameworks
 
-### Context Optimization Frameworks (1 framework)
-Revolutionary approach to prompt engineering:
+### Context Optimization Frameworks
+Revolutionary approaches to prompt engineering:
 - **[Context Engineering](./context-engineering/)** - Transform prompts into dynamic, efficient context fields
+- **[ADHD Prompting](./adhd-prompting/)** - Context optimization through cognitive constraint patterns
 
 ### Decision-Making Frameworks
 Frameworks optimized for structured decision processes:
@@ -61,6 +62,7 @@ System-level frameworks for AI interaction:
 | Framework | Key Strength | Best For | Complexity |
 |-----------|--------------|----------|------------|
 | Context Engineering | Token efficiency & emergence | All prompts - optimization layer | Low-Medium |
+| ADHD Prompting | Clarity through constraint | Token optimization & consistency | Low |
 | ECARLM | Multi-scale state evolution | Complex systems modeling | High |
 | EGAF | Cultural adaptability | Global, multi-domain problems | Medium-High |
 | ELSF | Logic and pattern integration | Technical problem-solving | Medium |
