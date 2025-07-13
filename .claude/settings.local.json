@@ -19,7 +19,9 @@
       "mcp__filesystem__list_allowed_directories",
       "Bash(./update-index)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(python3 tools/context-analyzer.py:*)"
+      "Bash(python3 tools/context-analyzer.py:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": []
   }
