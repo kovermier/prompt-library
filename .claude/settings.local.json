@@ -21,7 +21,8 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(python3 tools/context-analyzer.py:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
