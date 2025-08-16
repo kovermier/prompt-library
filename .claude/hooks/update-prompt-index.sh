@@ -12,8 +12,8 @@ FILE_PATH=$(echo "$INPUT" | jq -r '.tool_input.file_path // empty')
 if [[ "$TOOL" =~ ^(Write|Edit|MultiEdit)$ ]] && [[ -n "$FILE_PATH" ]]; then
     # Check if it's in the tasks or frameworks directories and is a .md file
     if [[ "$FILE_PATH" =~ /tasks/.*\.md$ ]] || [[ "$FILE_PATH" =~ /frameworks/.*\.md$ ]]; then
-        # Change to the prompt library directory
-        cd /mnt/c/Users/kover/documents/github/prompt-library
+        # Change to the prompt library directory (get from git root)
+        cd "$(git rev-parse --show-toplevel)"
         
         # Run the index update script
         if [[ -f "tools/index-prompts.py" ]]; then

@@ -21,34 +21,34 @@
     "PreToolUse": [
       {
         "match": ["Write", "Edit", "MultiEdit"],
-        "command": "/mnt/c/Users/kover/documents/github/prompt-library/.claude/hooks/tdd-check.sh",
+        "command": "./.claude/hooks/tdd-check.sh",
         "description": "Enforce TDD - ensure tests exist before production code"
       },
       {
         "match": ["Write", "Edit", "MultiEdit"],
-        "command": "/mnt/c/Users/kover/documents/github/prompt-library/.claude/hooks/typescript-check.sh",
+        "command": "./.claude/hooks/typescript-check.sh",
         "description": "Validate TypeScript strict mode compliance"
       },
       {
         "match": ["Write", "Edit", "MultiEdit"],
-        "command": "/mnt/c/Users/kover/documents/github/prompt-library/.claude/hooks/no-comments.sh",
+        "command": "./.claude/hooks/no-comments.sh",
         "description": "Prevent adding comments to code"
       },
       {
         "match": ["Write"],
-        "command": "/mnt/c/Users/kover/documents/github/prompt-library/.claude/hooks/prevent-unnecessary-files.sh",
+        "command": "./.claude/hooks/prevent-unnecessary-files.sh",
         "description": "Block creation of documentation files unless explicitly requested"
       }
     ],
     "PostToolUse": [
       {
         "match": ["Write", "Edit", "MultiEdit"],
-        "command": "/mnt/c/Users/kover/documents/github/prompt-library/.claude/hooks/update-prompt-index.sh",
+        "command": "./.claude/hooks/update-prompt-index.sh",
         "description": "Update prompt index after modifying prompt files"
       },
       {
         "match": ["Bash"],
-        "command": "/mnt/c/Users/kover/documents/github/prompt-library/.claude/hooks/log-bash-commands.sh",
+        "command": "./.claude/hooks/log-bash-commands.sh",
         "description": "Log all bash commands for audit trail"
       }
     ]

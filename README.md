@@ -5,8 +5,9 @@ A comprehensive collection of cutting-edge prompts, frameworks, and philosophica
 <div align="center">
   <img src="https://img.shields.io/badge/Vibecoding_Archetypes-8-purple" alt="Vibecoding Archetypes">
   <img src="https://img.shields.io/badge/Frameworks-9-blue" alt="Frameworks">
+  <img src="https://img.shields.io/badge/Templates-3-red" alt="Templates">
   <img src="https://img.shields.io/badge/Prompts-47-green" alt="Prompts">
-  <img src="https://img.shields.io/badge/Version-3.2-orange" alt="Version">
+  <img src="https://img.shields.io/badge/Version-3.3-orange" alt="Version">
 </div>
 
 ## 🌟 Overview
@@ -64,7 +65,10 @@ prompt-library/
 │   ├── creativity/    # Creative process frameworks
 │   ├── problem-solving/ # Problem-solving methodologies
 │   └── prompt-structure/ # Meta-frameworks for prompt design
-├── templates/         # Reusable prompt templates
+├── templates/         # 🆕 Reusable prompt templates (NEW!)
+│   ├── universal-agent-card.md     # ADHD-optimized agent design
+│   ├── visual-prompt-patterns.md   # Mind map to text patterns
+│   └── elevenlabs-conversational.md # Voice agent templates
 ├── tools/             # Search and indexing utilities
 └── chains/            # Complex multi-step workflows
 ```
@@ -147,17 +151,47 @@ A multi-scale approach to problem-solving that analyzes challenges at three leve
 
 Documentation: [frameworks/fractal/fractal_framework.md](frameworks/fractal/fractal_framework.md)
 
-### 🧠 Context Engineering
+### 🧠 Context Engineering & ADHD Optimization
 
-Revolutionary approach that transforms prompts into dynamic, efficient context fields. Instead of verbose instructions, Context Engineering treats the context window as a neural field where information can be:
+Revolutionary approaches that transform prompts into dynamic, efficient context fields:
+
+**Context Engineering**: Treats the context window as a neural field where information can be:
 - Minimized to essential elements (80-90% token reduction)
 - Structured as attractors and repulsors
 - Designed for emergent understanding
 - Measured and optimized continuously
 
-Key principles: First principles thinking, token budgeting, field dynamics, emergence design.
+**ADHD Prompting**: Optimizes for cognitive constraints shared by humans and LLMs:
+- Visual anchors with emojis for quick scanning
+- Front-loaded critical information
+- Progressive disclosure patterns
+- Explicit state management
 
-Documentation: [frameworks/context-engineering/](frameworks/context-engineering/)
+Documentation: 
+- [Context Engineering](frameworks/context-engineering/)
+- [ADHD Prompting](frameworks/adhd-prompting/)
+
+### 📝 Reusable Templates (NEW!)
+
+Pre-built, optimized templates for common use cases:
+
+**[Universal Agent Card](templates/universal-agent-card.md)**: ADHD-optimized template for designing AI agents with:
+- 5-second comprehension test
+- Token optimization (<300 tokens)
+- Visual hierarchy with emojis
+- Built-in validation checklist
+
+**[Visual Prompt Patterns](templates/visual-prompt-patterns.md)**: Transform visual thinking into text:
+- 8 documented patterns (mind maps, flow diagrams, matrices)
+- Spatial relationship preservation
+- Integration with ADHD framework
+- Real-world examples
+
+**[ElevenLabs Conversational AI](templates/elevenlabs-conversational-ai.md)**: Natural voice agent design:
+- Emotional state detection
+- Progressive information gathering
+- TTS optimization guidelines
+- Pre-deployment testing checklist
 
 ## 🔍 Smart Search & Discovery
 
@@ -316,6 +350,6 @@ Contributions are welcome! Please follow these steps:
 ---
 
 <div align="center">
-  <p>Built with ❤️ by [Author]</p>
-  <p>Last updated: July 1, 2025</p>
+  <p>Built with ❤️ by the Community</p>
+  <p>Last updated: August 14, 2025</p>
 </div>

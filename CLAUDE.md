@@ -67,7 +67,7 @@ I am Claude, created by Anthropic. I have access to various tools and specialize
 I have access to:
 - MCP filesystem server for reading/writing files
 - Web search for current information
-- Google Drive for personal/internal documents
+- Google Drive for document access
 - Memory knowledge graph for persistent information
 - Various other MCP tools as configured
 
